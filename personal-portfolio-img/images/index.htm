@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - Easy Tutorial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div id="header">
+     <div class="container">
+        <nav>
+            <img src="logo.png" class="logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#Experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Hello</p>
+            <h2>I'm <span>Bhargavi Buradkar</span></h2>
+        </div>
+
+     </div>
+   </div>
+   <!-- -----------about------------>
+   <div id="about">
+    <div class="container">
+       <div class="row" >
+       <div class="about-col-1">
+        <img src="user.jpg" id="images">
+       </div>
+       <div class="about-col-2">
+        <h1 class="sub-title">About Me </h1>
+        <p>Undergraduated student at the university of Rashtrasant Tukadoji Maharaj Nagpur pursuing Computer Science Engineering with career interests in tech, sport, music and dance.</p>
+
+
+
+      <!-- portfolio -->
+
+
+ <div id="portfolio">
+<div class="container">
+<h1 class="sub-title">My Portfolio </h1>
+<div class="work-list">
+    <div>
+        <h2>Skills</h2>
+        <p>  <ul>
+            <li><span>html</span></li>
+            <li><span>css</span></li>
+          
+        </ul></p>
+    </div>
+    <div>
+        <h2>Education</h2>
+        <h3>HSC</h3>
+        <p>Janta Mahavidyalaya, Chandrapur</p>
+        <p>2021-2022</p>
+        <p>Grade-A</p>
+        <h3>B.TECH</h3>
+        <p>Government College of Engineering, Nagpur</p>
+        <a href="#">learn more</a>
+
+    </div>
+</div>
+   
+ </div>
+</div>
+
+
+<!-- Experience -->
+
+<div id="page">
+    <div id="text">
+        <h1>My Projects</h1>
+    </div><br><br><br><br><br><br><br>
+    <div id="project">
+       <div class="projects p1">
+        <div id="text1">
+            <h1>Calculator</h1>
+        </div>
+        <div id="image">
+        <img src="calculator.png" alt="Description of the project">
+       </div> </div>
+  
+    <div class="projects p2">
+        <div id="text1">
+            <h1>Landing Page</h1>
+
+        </div>
+        <div id="image">
+            <img src="landingpage.png" alt="Description of the project">
+        </div>
+    </div>
+</div>
+</div><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<!-- Contact -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me </h1>
+                <p><i class="fa-solid fa-paper-plane"></i>bhargaviburadkar1404@gmail.com</p><br>
+                <div class="social-icons" >
+                    <img src="linkedin.png" alt="linkedin" >
+                    <img src="insta.png" alt="insta">
+                    <img src="facebook.png" alt="facebook" id="image1" ><br><br>
+
+
+                
+               <button> <a href="my-cv.pdf" download class="btn btn2">Download CV</a></button>
+            </div>
+        </div>
+
+        </div>
+    </div>
+    <footer>
+   <div class="copyright">
+    <p>&copy; 2024 Bhargavi Buradkar. All rights reserved</p>
+   </div></footer>
+</div>
+    <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+       
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+   </script> 
+</body>
+</html>
